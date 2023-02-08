@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom,red, rgb(149, 4, 4));
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-image: linear-gradient(to bottom, gold, rgb(255, 162, 0)
+    );
+    padding: 10px;
+}
+header  nav{
+   background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+
+    
+    
+}
+
+header  a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+header  a :hover{
+    background-color: gold;
+    color: red;
+    padding: 10px;
+}
+header h1{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    
+}
+main{
+    background-color: white;
+ margin-left: 150px;
+ margin-right: 150px;
+ padding-bottom: 300px;
+ text-align: center;
+ border-radius: 10px;
+ line-height: 2em;
+}
+ nav > a:hover{
+    background-color: gold;
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ h2{
+    font-family: 'Rubik Mono One', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+ }
+ main p{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+    text-indent: 40px;
+ }
+ strong{
+    color: red;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+ strong:hover{
+    color: white;
+    background-color: black;
+ }
+ strong a{
+    text-decoration: none;
+    color: red;
+    
+    
+ }
